@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40581842395C7DD4FE0BC764 /* Pods_GitRepos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D225FBBEB8D38E38A0147F /* Pods_GitRepos.framework */; };
+		9E04BAFE1AF8EC91C0DB119A /* Pods_GitReposTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FE36799D91274D051C96F1 /* Pods_GitReposTests.framework */; };
 		DCC507702590DBA00048B951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC5076F2590DBA00048B951 /* AppDelegate.swift */; };
 		DCC507722590DBA00048B951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507712590DBA00048B951 /* SceneDelegate.swift */; };
 		DCC507742590DBA00048B951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507732590DBA00048B951 /* ViewController.swift */; };
 		DCC507772590DBA00048B951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC507752590DBA00048B951 /* Main.storyboard */; };
 		DCC507792590DBA20048B951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC507782590DBA20048B951 /* Assets.xcassets */; };
 		DCC5077C2590DBA20048B951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC5077A2590DBA20048B951 /* LaunchScreen.storyboard */; };
-		DCC507872590DBA20048B951 /* GitReposTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507862590DBA20048B951 /* GitReposTests.swift */; };
+		DCC507D32590DD400048B951 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507BD2590DD3F0048B951 /* Int+Extensions.swift */; };
+		DCC507D42590DD400048B951 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507BE2590DD3F0048B951 /* UIColor+Extensions.swift */; };
+		DCC507D52590DD400048B951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC507C02590DD3F0048B951 /* Assets.xcassets */; };
+		DCC507D62590DD400048B951 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507C42590DD3F0048B951 /* Repo.swift */; };
+		DCC507D72590DD400048B951 /* ReposListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507C62590DD3F0048B951 /* ReposListPresenter.swift */; };
+		DCC507D82590DD400048B951 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507C82590DD3F0048B951 /* RepoCell.swift */; };
+		DCC507D92590DD400048B951 /* ReposListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507C92590DD3F0048B951 /* ReposListViewController.swift */; };
+		DCC507DA2590DD400048B951 /* ReposListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507CB2590DD3F0048B951 /* ReposListProtocols.swift */; };
+		DCC507DB2590DD400048B951 /* ReposListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507CD2590DD3F0048B951 /* ReposListInteractor.swift */; };
+		DCC507DC2590DD400048B951 /* ReposListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507CF2590DD3F0048B951 /* ReposListRouter.swift */; };
+		DCC507DD2590DD400048B951 /* ReposService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507D12590DD3F0048B951 /* ReposService.swift */; };
+		DCC507DE2590DD400048B951 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507D22590DD3F0048B951 /* UsersService.swift */; };
+		DCC507ED2590DE4C0048B951 /* IntExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507DF2590DE4B0048B951 /* IntExtensionsTests.swift */; };
+		DCC507EE2590DE4C0048B951 /* ReposServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507E02590DE4C0048B951 /* ReposServiceTests.swift */; };
+		DCC507EF2590DE4C0048B951 /* UsersServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507E12590DE4C0048B951 /* UsersServiceTests.swift */; };
+		DCC507F02590DE4C0048B951 /* MockReposListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507E32590DE4C0048B951 /* MockReposListViewController.swift */; };
+		DCC507F12590DE4C0048B951 /* MockReposService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507E42590DE4C0048B951 /* MockReposService.swift */; };
+		DCC507F22590DE4C0048B951 /* MockUsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507E52590DE4C0048B951 /* MockUsersService.swift */; };
+		DCC507F32590DE4C0048B951 /* MockReposListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507E62590DE4C0048B951 /* MockReposListInteractor.swift */; };
+		DCC507F42590DE4C0048B951 /* MockUserResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = DCC507E72590DE4C0048B951 /* MockUserResponse.json */; };
+		DCC507F52590DE4C0048B951 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507E82590DE4C0048B951 /* MockURLProtocol.swift */; };
+		DCC507F62590DE4C0048B951 /* MockReposSearchResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = DCC507E92590DE4C0048B951 /* MockReposSearchResponse.json */; };
+		DCC507F72590DE4C0048B951 /* MockReposListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507EA2590DE4C0048B951 /* MockReposListPresenter.swift */; };
+		DCC507F82590DE4C0048B951 /* ReposListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507EB2590DE4C0048B951 /* ReposListInteractorTests.swift */; };
+		DCC507F92590DE4C0048B951 /* ReposListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC507EC2590DE4C0048B951 /* ReposListPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3922333F44BD3A0A5DC3ACC2 /* Pods-GitRepos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepos.debug.xcconfig"; path = "Target Support Files/Pods-GitRepos/Pods-GitRepos.debug.xcconfig"; sourceTree = "<group>"; };
+		45D225FBBEB8D38E38A0147F /* Pods_GitRepos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitRepos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01A4B4FF23BD4F6A2136399 /* Pods-GitReposTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitReposTests.debug.xcconfig"; path = "Target Support Files/Pods-GitReposTests/Pods-GitReposTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3FE36799D91274D051C96F1 /* Pods_GitReposTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitReposTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA0A96ECA874FEDF10DA98E /* Pods-GitRepos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepos.release.xcconfig"; path = "Target Support Files/Pods-GitRepos/Pods-GitRepos.release.xcconfig"; sourceTree = "<group>"; };
 		DCC5076C2590DBA00048B951 /* GitRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC5076F2590DBA00048B951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCC507712590DBA00048B951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,8 +67,33 @@
 		DCC5077B2590DBA20048B951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC5077D2590DBA20048B951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC507822590DBA20048B951 /* GitReposTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitReposTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC507862590DBA20048B951 /* GitReposTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitReposTests.swift; sourceTree = "<group>"; };
 		DCC507882590DBA20048B951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC507BD2590DD3F0048B951 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		DCC507BE2590DD3F0048B951 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DCC507C02590DD3F0048B951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC507C42590DD3F0048B951 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		DCC507C62590DD3F0048B951 /* ReposListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposListPresenter.swift; sourceTree = "<group>"; };
+		DCC507C82590DD3F0048B951 /* RepoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		DCC507C92590DD3F0048B951 /* ReposListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposListViewController.swift; sourceTree = "<group>"; };
+		DCC507CB2590DD3F0048B951 /* ReposListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposListProtocols.swift; sourceTree = "<group>"; };
+		DCC507CD2590DD3F0048B951 /* ReposListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposListInteractor.swift; sourceTree = "<group>"; };
+		DCC507CF2590DD3F0048B951 /* ReposListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposListRouter.swift; sourceTree = "<group>"; };
+		DCC507D12590DD3F0048B951 /* ReposService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposService.swift; sourceTree = "<group>"; };
+		DCC507D22590DD3F0048B951 /* UsersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
+		DCC507DF2590DE4B0048B951 /* IntExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensionsTests.swift; sourceTree = "<group>"; };
+		DCC507E02590DE4C0048B951 /* ReposServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposServiceTests.swift; sourceTree = "<group>"; };
+		DCC507E12590DE4C0048B951 /* UsersServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersServiceTests.swift; sourceTree = "<group>"; };
+		DCC507E32590DE4C0048B951 /* MockReposListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReposListViewController.swift; sourceTree = "<group>"; };
+		DCC507E42590DE4C0048B951 /* MockReposService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReposService.swift; sourceTree = "<group>"; };
+		DCC507E52590DE4C0048B951 /* MockUsersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUsersService.swift; sourceTree = "<group>"; };
+		DCC507E62590DE4C0048B951 /* MockReposListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReposListInteractor.swift; sourceTree = "<group>"; };
+		DCC507E72590DE4C0048B951 /* MockUserResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockUserResponse.json; sourceTree = "<group>"; };
+		DCC507E82590DE4C0048B951 /* MockURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		DCC507E92590DE4C0048B951 /* MockReposSearchResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockReposSearchResponse.json; sourceTree = "<group>"; };
+		DCC507EA2590DE4C0048B951 /* MockReposListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockReposListPresenter.swift; sourceTree = "<group>"; };
+		DCC507EB2590DE4C0048B951 /* ReposListInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposListInteractorTests.swift; sourceTree = "<group>"; };
+		DCC507EC2590DE4C0048B951 /* ReposListPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposListPresenterTests.swift; sourceTree = "<group>"; };
+		F14CE3401BAC4809541490EB /* Pods-GitReposTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitReposTests.release.xcconfig"; path = "Target Support Files/Pods-GitReposTests/Pods-GitReposTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40581842395C7DD4FE0BC764 /* Pods_GitRepos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +109,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E04BAFE1AF8EC91C0DB119A /* Pods_GitReposTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229EE18BB5DBD45BC85097CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45D225FBBEB8D38E38A0147F /* Pods_GitRepos.framework */,
+				B3FE36799D91274D051C96F1 /* Pods_GitReposTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2399B4A58C80F84D3216D51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3922333F44BD3A0A5DC3ACC2 /* Pods-GitRepos.debug.xcconfig */,
+				CFA0A96ECA874FEDF10DA98E /* Pods-GitRepos.release.xcconfig */,
+				A01A4B4FF23BD4F6A2136399 /* Pods-GitReposTests.debug.xcconfig */,
+				F14CE3401BAC4809541490EB /* Pods-GitReposTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DCC507632590DBA00048B951 = {
 			isa = PBXGroup;
 			children = (
 				DCC5076E2590DBA00048B951 /* GitRepos */,
 				DCC507852590DBA20048B951 /* GitReposTests */,
 				DCC5076D2590DBA00048B951 /* Products */,
+				C2399B4A58C80F84D3216D51 /* Pods */,
+				229EE18BB5DBD45BC85097CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +160,10 @@
 		DCC5076E2590DBA00048B951 /* GitRepos */ = {
 			isa = PBXGroup;
 			children = (
+				DCC507C12590DD3F0048B951 /* Modules */,
+				DCC507D02590DD3F0048B951 /* Services */,
+				DCC507BC2590DD3F0048B951 /* Extensions */,
+				DCC507BF2590DD3F0048B951 /* Resources */,
 				DCC5076F2590DBA00048B951 /* AppDelegate.swift */,
 				DCC507712590DBA00048B951 /* SceneDelegate.swift */,
 				DCC507732590DBA00048B951 /* ViewController.swift */,
@@ -93,10 +178,126 @@
 		DCC507852590DBA20048B951 /* GitReposTests */ = {
 			isa = PBXGroup;
 			children = (
-				DCC507862590DBA20048B951 /* GitReposTests.swift */,
+				DCC507E22590DE4C0048B951 /* Mocks */,
+				DCC507DF2590DE4B0048B951 /* IntExtensionsTests.swift */,
+				DCC507EB2590DE4C0048B951 /* ReposListInteractorTests.swift */,
+				DCC507EC2590DE4C0048B951 /* ReposListPresenterTests.swift */,
+				DCC507E02590DE4C0048B951 /* ReposServiceTests.swift */,
+				DCC507E12590DE4C0048B951 /* UsersServiceTests.swift */,
 				DCC507882590DBA20048B951 /* Info.plist */,
 			);
 			path = GitReposTests;
+			sourceTree = "<group>";
+		};
+		DCC507BC2590DD3F0048B951 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507BD2590DD3F0048B951 /* Int+Extensions.swift */,
+				DCC507BE2590DD3F0048B951 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCC507BF2590DD3F0048B951 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507C02590DD3F0048B951 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCC507C12590DD3F0048B951 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507C22590DD3F0048B951 /* ReposList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DCC507C22590DD3F0048B951 /* ReposList */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507C32590DD3F0048B951 /* Entity */,
+				DCC507C52590DD3F0048B951 /* Presenter */,
+				DCC507C72590DD3F0048B951 /* View */,
+				DCC507CA2590DD3F0048B951 /* Protocols */,
+				DCC507CC2590DD3F0048B951 /* Interactor */,
+				DCC507CE2590DD3F0048B951 /* Router */,
+			);
+			path = ReposList;
+			sourceTree = "<group>";
+		};
+		DCC507C32590DD3F0048B951 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507C42590DD3F0048B951 /* Repo.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DCC507C52590DD3F0048B951 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507C62590DD3F0048B951 /* ReposListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DCC507C72590DD3F0048B951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507C82590DD3F0048B951 /* RepoCell.swift */,
+				DCC507C92590DD3F0048B951 /* ReposListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCC507CA2590DD3F0048B951 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507CB2590DD3F0048B951 /* ReposListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DCC507CC2590DD3F0048B951 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507CD2590DD3F0048B951 /* ReposListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DCC507CE2590DD3F0048B951 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507CF2590DD3F0048B951 /* ReposListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DCC507D02590DD3F0048B951 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507D12590DD3F0048B951 /* ReposService.swift */,
+				DCC507D22590DD3F0048B951 /* UsersService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DCC507E22590DE4C0048B951 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC507E32590DE4C0048B951 /* MockReposListViewController.swift */,
+				DCC507E42590DE4C0048B951 /* MockReposService.swift */,
+				DCC507E52590DE4C0048B951 /* MockUsersService.swift */,
+				DCC507E62590DE4C0048B951 /* MockReposListInteractor.swift */,
+				DCC507E72590DE4C0048B951 /* MockUserResponse.json */,
+				DCC507E82590DE4C0048B951 /* MockURLProtocol.swift */,
+				DCC507E92590DE4C0048B951 /* MockReposSearchResponse.json */,
+				DCC507EA2590DE4C0048B951 /* MockReposListPresenter.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCC5078B2590DBA20048B951 /* Build configuration list for PBXNativeTarget "GitRepos" */;
 			buildPhases = (
+				0AE0B2D04D9E372AF63AE4A8 /* [CP] Check Pods Manifest.lock */,
 				DCC507682590DBA00048B951 /* Sources */,
 				DCC507692590DBA00048B951 /* Frameworks */,
 				DCC5076A2590DBA00048B951 /* Resources */,
+				5BFC0E4BF22B35BE26C67837 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCC5078E2590DBA20048B951 /* Build configuration list for PBXNativeTarget "GitReposTests" */;
 			buildPhases = (
+				E7570B3B51E5222639745901 /* [CP] Check Pods Manifest.lock */,
 				DCC5077E2590DBA20048B951 /* Sources */,
 				DCC5077F2590DBA20048B951 /* Frameworks */,
 				DCC507802590DBA20048B951 /* Resources */,
@@ -182,6 +386,7 @@
 			files = (
 				DCC5077C2590DBA20048B951 /* LaunchScreen.storyboard in Resources */,
 				DCC507792590DBA20048B951 /* Assets.xcassets in Resources */,
+				DCC507D52590DD400048B951 /* Assets.xcassets in Resources */,
 				DCC507772590DBA00048B951 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,10 +395,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC507F62590DE4C0048B951 /* MockReposSearchResponse.json in Resources */,
+				DCC507F42590DE4C0048B951 /* MockUserResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AE0B2D04D9E372AF63AE4A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitRepos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFC0E4BF22B35BE26C67837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRepos/Pods-GitRepos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitRepos/Pods-GitRepos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitRepos/Pods-GitRepos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7570B3B51E5222639745901 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitReposTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCC507682590DBA00048B951 /* Sources */ = {
@@ -201,8 +472,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC507742590DBA00048B951 /* ViewController.swift in Sources */,
+				DCC507D42590DD400048B951 /* UIColor+Extensions.swift in Sources */,
+				DCC507D92590DD400048B951 /* ReposListViewController.swift in Sources */,
+				DCC507D32590DD400048B951 /* Int+Extensions.swift in Sources */,
+				DCC507D62590DD400048B951 /* Repo.swift in Sources */,
+				DCC507DA2590DD400048B951 /* ReposListProtocols.swift in Sources */,
+				DCC507DB2590DD400048B951 /* ReposListInteractor.swift in Sources */,
 				DCC507702590DBA00048B951 /* AppDelegate.swift in Sources */,
 				DCC507722590DBA00048B951 /* SceneDelegate.swift in Sources */,
+				DCC507D72590DD400048B951 /* ReposListPresenter.swift in Sources */,
+				DCC507DC2590DD400048B951 /* ReposListRouter.swift in Sources */,
+				DCC507DD2590DD400048B951 /* ReposService.swift in Sources */,
+				DCC507DE2590DD400048B951 /* UsersService.swift in Sources */,
+				DCC507D82590DD400048B951 /* RepoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +492,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC507872590DBA20048B951 /* GitReposTests.swift in Sources */,
+				DCC507EF2590DE4C0048B951 /* UsersServiceTests.swift in Sources */,
+				DCC507F32590DE4C0048B951 /* MockReposListInteractor.swift in Sources */,
+				DCC507F52590DE4C0048B951 /* MockURLProtocol.swift in Sources */,
+				DCC507F92590DE4C0048B951 /* ReposListPresenterTests.swift in Sources */,
+				DCC507F22590DE4C0048B951 /* MockUsersService.swift in Sources */,
+				DCC507EE2590DE4C0048B951 /* ReposServiceTests.swift in Sources */,
+				DCC507F12590DE4C0048B951 /* MockReposService.swift in Sources */,
+				DCC507F02590DE4C0048B951 /* MockReposListViewController.swift in Sources */,
+				DCC507F72590DE4C0048B951 /* MockReposListPresenter.swift in Sources */,
+				DCC507ED2590DE4C0048B951 /* IntExtensionsTests.swift in Sources */,
+				DCC507F82590DE4C0048B951 /* ReposListInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +652,7 @@
 		};
 		DCC5078C2590DBA20048B951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3922333F44BD3A0A5DC3ACC2 /* Pods-GitRepos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +671,7 @@
 		};
 		DCC5078D2590DBA20048B951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA0A96ECA874FEDF10DA98E /* Pods-GitRepos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +690,7 @@
 		};
 		DCC5078F2590DBA20048B951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01A4B4FF23BD4F6A2136399 /* Pods-GitReposTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +713,7 @@
 		};
 		DCC507902590DBA20048B951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14CE3401BAC4809541490EB /* Pods-GitReposTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
