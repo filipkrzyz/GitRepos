@@ -39,9 +39,10 @@ The app implements pagination. Each request brings 30 results. When user scrolls
 - UITests were implemented with a code coverage approximatelly 70%
 
 ## Screenshots
-![start][1]           ![noresults][4]      
+![start][1]     ![viper][2]     ![swift][3]       ![noresults][4]      
 
 
 [1]: ./Screenshots/start.png
-
+[2]: ./Screenshots/viper.png
+[3]: ./Screenshots/swift.png
 [4]: ./Screenshots/noresults.png
